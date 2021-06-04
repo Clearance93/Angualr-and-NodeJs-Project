@@ -1,0 +1,36 @@
+.container_home{
+    background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+.h2{
+    color: #fff;
+    margin-left: 40%;
+    font-size: 2.9rem;
+}
+
+.position-sticky img{
+    width: 220px;
+    height:170px;
+}
+
+.container, .container_two p{
+    color: #ffff;
+}
+
+
+.col-md-6 img{
+    width: 290px;
+    height: 150px;
+    margin-left: 20%;
+}
+
+.container, .container_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6{
+    margin: 20px;
+    padding: 15px 23px;
+}

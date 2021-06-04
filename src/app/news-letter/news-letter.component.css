@@ -1,0 +1,49 @@
+.container_home{
+    background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+form{
+    margin: 120px 30%;
+}
+
+
+.h2{
+    color:#fff;
+    margin-left: 35%;
+    font-size: 2.9rem;
+}
+
+h1{
+    color:#fff;
+}
+
+label{
+    color: #fff;
+}
+
+#name{
+    margin: 15px 79px;
+}
+
+#email{
+    margin: 15px 85px;
+}
+
+#date{
+    margin: 15px 18px;
+}
+
+button{
+    margin: 12px;
+    padding: 12px 30px;
+    border: none;
+    background: linear-gradient(to right, lightgray, silver, darkgray, gray);
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}

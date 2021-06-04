@@ -1,0 +1,93 @@
+.container_home{
+    background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+.h2{
+    color:#fff;
+    margin-left: 35%;
+    font-size: 2.9rem;
+}
+
+.contact{
+    margin: 0px;
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: 60px;
+}
+
+.contact div{
+    margin: 10px;
+    border: 2px solid gray;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #111;
+    color: #fff;
+}
+
+.first form{
+    padding: 35px;
+    margin: 25px;
+}
+
+.contact .first, form, #lName{
+    margin-left: 9px;
+}
+
+.contact .first, form, #fName{
+    margin-left: 8px;
+}
+
+.contact .first, form, input[type="email"]{
+    margin-left: 46px;
+}
+
+.contact .first, form, #feedback{
+    margin-left: 18px;
+}
+
+.contact .first, input{
+    margin: 10px 0;
+}
+
+span{
+    /* font-weight: normal; */
+    font-style: italic;
+    color: orangered;
+}
+
+.contact .moreInfo .emailing{
+    border: 1px solid orangered;
+    background: orange;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.contact .moreInfo .emailing:hover{
+    background: red;
+    border: 1px solid maroon;
+    color: #111;
+}
+
+img{
+    width: 75px;
+    margin: 10px 20px 10px 40px;
+}
+
+button{
+    margin: 15px;
+    padding: 5px 10px;
+    background: linear-gradient(to right, yellow, orange, darkorange,orangered, red, maroon);
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #111;
+    cursor: pointer;
+}
+
+button:hover{
+    background: blue;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.container_home{
+    background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+
+.h2{
+    color:#fff;
+    margin-left: 35%;
+    font-size: 2.9rem;
+}
+
+img{
+    margin-top: 10px;
+    width: 220px;
+    height: 170px;
+    padding: 10px;
+}
+
+small{
+    background: lightblue;
+}
+

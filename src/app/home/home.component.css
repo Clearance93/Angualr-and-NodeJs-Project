@@ -1,0 +1,56 @@
+.container_home{
+  background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+
+.h2{
+  color:#fff;
+  margin-left: 35%;
+  font-size: 2.9rem;
+}
+
+.ground{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 55px;
+    padding:20px;
+}
+
+.pal{
+  margin: 0px 25px;
+  border: 4px solid gray;
+  background: silver;
+  font-size: 1.3rem;
+}
+
+.moreText{
+    display: none;
+}
+
+.col-md-12 .fs-4.show-more.moreText{
+  display: inline;
+}
+
+img{
+  width: 300px;
+  height: 230px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-4{
+  margin: 12px;
+  padding: 10px 16px;
+}
+
+p{
+  margin-top: 15px;
+}

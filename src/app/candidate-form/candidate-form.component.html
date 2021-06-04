@@ -1,0 +1,63 @@
+  <!-- Header Start -->
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--  -->
+</header>
+<!-- Header End -->
+
+<!-- Container Fluid Start -->
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+               <img [src]="pic"><br /><br />
+               <p>
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti eligendi fugit ut, dolores sed dolor sunt inventore velit! Vel quidem esse error culpa? Illum, non magnam? Eveniet deleniti ex provident!
+                   <br />
+                   <marquee behavior="left" direction="left"><small>ads by nike</small></marquee>
+               </p>
+               <br />
+               <img [src]="pic1"><br /><br />
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita exercitationem voluptatibus aspernatur qui cumque, animi iusto velit perspiciatis accusantium sint? Alias.
+                <br />
+                <marquee behavior="right" direction="right"><small>ads by nike</small></marquee>
+               </p>
+            </div>   
+        </nav>
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div
+                class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">candidate form</h1>
+            </div>
+
+            <!-- Dashboard Content Begin -->
+            <div class="p-5 mb-4 bg-light rounded-3">
+                <div class="container-fluid py-5">
+                    <h2 class="display-5 fw-bold">If you are received an email to do online test, please sensure that you have the relevent reference with you that you have received via email</h2>
+                    <br /><br />
+                    <form >
+                        <label for="fName">First Name</label>
+                        <input type="text" name="fName" id="fName" required><br />
+                        <label for="lName">Last Name</label>
+                        <input type="text" name="lName" id="lName" required><br />
+                        <label for="ref">Reference Number</label>
+                        <input type="text" name="ref" id="ref" required><br />
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <br /><br />
+                    <a routerLink="/onlinetest"><button class="btn btn-primary btn-lg" type="button">Next</button></a>
+                    </form>
+                    
+                </div>
+            </div>
+            <!-- Dashboard Content End -->
+
+        </main>
+    </div>
+</div>
+<!-- Container Fluid End -->

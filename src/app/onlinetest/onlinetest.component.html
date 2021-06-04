@@ -1,0 +1,76 @@
+<div class="container_home">
+    <!-- Header Start -->
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <!--  -->
+</header>
+<!-- Header End -->
+
+<!-- Container Fluid Start -->
+<div class="container-fluid">
+  <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <div class="position-sticky pt-3">
+             <!-- <img [src]="pic"><br /><br />
+             <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti eligendi fugit ut, dolores sed dolor sunt inventore velit! Vel quidem esse error culpa? Illum, non magnam? Eveniet deleniti ex provident!
+             </p> -->
+             <img [src]="pic"><br /><br />
+          <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti eligendi fugit ut, dolores sed dolor sunt inventore velit! Vel quidem esse error culpa? Illum, non magnam? Eveniet deleniti ex provident! <br />
+          <marquee behavior="left" direction="left"> <small><strong> ads by mcDock High</strong></small></marquee>
+          </p>
+          <br /><br />
+          <img [src]="pic1"><br /><br />
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quo. Quidem ipsam facilis numquam fugit dignissimos cumque atque eligendi corrupti? <br />
+              <marquee behavior="right" direction="right"><small><strong> ads by nike </strong></small></marquee>
+          </p>
+          </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <div
+              class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+              <h1 class="h2">Online Test</h1>
+          </div>
+
+          <!-- Dashboard Content Begin -->
+          <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-8 offset-2">
+                    <div *ngIf="currentQuiz < 10">
+                    <p class="text-center">{{ currentQuiz + 1 }} of {{ quizzes.length }}</p>
+                    <h1>{{ quizzes[currentQuiz].question }}</h1>
+        
+                    <ul class="list-group" *ngFor="let quiz of quizzes[currentQuiz].answer">
+                        <label>
+                            <li class="list-group-item" appBackground [correctAnswer]="quiz.correct">
+                                <input type="radio" name="options" (change)="onAnswer(quiz.correct)" [disabled]="answerSelected">
+                                {{ quiz.option}}
+                            </li>
+                    </label>
+                    </ul>
+                </div>
+                <div *ngIf="currentQuiz > 9">
+                   <button class="btn btn-success btn-block" (click)="showResults()">Show Results</button>
+                   <div *ngIf="results">
+                    Correct answer: {{ correctAnswer }} | Incorrect Answer: {{ incorrectAnswer}} <br />
+                    <!-- <a routerLink="/second-question"><button>Next</button></a> -->
+                   </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+          <!-- Dashboard Content End -->
+
+      </main>
+  </div>
+</div>
+<!-- Container Fluid End -->
+</div>

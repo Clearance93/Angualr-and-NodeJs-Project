@@ -1,0 +1,48 @@
+.container_home{
+    background: linear-gradient(to top, yellow, orange, darkorange, orangered, red, maroon);
+}
+
+.h2{
+    color:#fff;
+    margin-left: 35%;
+    font-size: 2.9rem;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.4rem;
+    background: yellow;
+}
+
+form{
+    padding: 10px;
+    margin: 130px 30%;
+}
+
+form, #fName{
+    margin: 10px 70px;
+}
+
+form, #lName{
+    margin: 10px 71px;
+}
+
+form, #ref{
+    margin: 10px 15px;
+}
+
+form, input[type="email"]{
+    margin: 10px 109px;
+}
+
+small{
+    background: lightgreen;
+}
+
+form, button{
+    padding: 0px 135px;
+}
+
+input{
+    padding: 0px 10px;
+}

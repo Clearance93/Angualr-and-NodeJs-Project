@@ -1,0 +1,85 @@
+<div class="container_home">
+      <!-- Header Start -->
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--  -->
+</header>
+<!-- Header End -->
+
+<!-- Container Fluid Start -->
+<div class="container-fluid">
+    <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+                <img [src]="pic"><br /> <br />
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deserunt blanditiis eos facilis cumque! Dolorum optio veritatis aut, omnis placeat, sapiente aliquam nobis ducimus laborum saepe, vero fuga deserunt nihil.</p>
+                <br />
+
+                <img [src]="pic1"><br /><br />
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel eligendi ducimus temporibus aperiam, consequatur totam adipisci commodi ipsa dolor laboriosam mollitia nihil sunt placeat corrupti molestiae assumenda excepturi hic ex, quisquam deleniti aut accusantium. Distinctio eum magnam optio earum quasi dignissimos, quas non accusantium minus facilis voluptate commodi dolor!
+                </p>
+            </div>
+        </nav>
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div
+                class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Our Employees</h1>
+            </div>
+
+            <!-- Dashboard Content Begin -->
+            <div>
+                <form onsubmit="event.preventDefault();onFormSubmit();">
+                    <div class="form-group">
+                        <label for="fullName">Full Name: (Required)</label>
+                        <label class="validation-error hide" id="fullNameValidationError">The field is
+                            required.</label>
+                        <input type="text" name="fullName" id="fullName" class="form-control" />
+                    </div> <br />
+                    <div class="form-group">
+                        <label for="email">Email ID:</label>
+                        <input type="text" name="email" id="email" class="form-control" />
+                    </div> <br />
+                    <div class="form-group">
+                        <label for="salary">Salary:</label>
+                        <input type="text" name="salary" id="salary" class="form-control" />
+                    </div> <br />
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" name="city" id="city" class="form-control" />
+                    </div> <br />
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Add New Employee" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+            <br />
+            <div>
+                <table class="table table-striped" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Email Id</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- populating table row from script -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- Dashboard Content End -->
+
+        </main>
+    </div>
+</div>
+<!-- Container Fluid End -->
+</div>
